@@ -1,4 +1,5 @@
 <h2>Search</h2>
+<button (click)="logout()" class="btn btn-sm btn-outline-primary float-right">Logout</button>
 <form>
   <input type="search" name="query" [(ngModel)]="query" (keyup.enter)="search()">
   <button type="button" (click)="search()">Search</button>
